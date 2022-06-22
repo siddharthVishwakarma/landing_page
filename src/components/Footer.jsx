@@ -3,8 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <>
+      <hr className="bg-gray-800" />
       <footer className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-24 mx-auto bg-blue-300">
           <div className="flex flex-wrap md:text-left text-center order-first">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
@@ -107,17 +108,17 @@ const Footer = () => {
                   />
                 </div>
                 <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                  Button
+                  Submit
                 </button>
               </div>
               <p className="text-gray-500 text-sm mt-2 md:text-left text-center">
                 Bitters chicharrones fanny pack
-                {/* <br className="lg:block hidden">waistcoat green juice */}
               </p>
             </div>
           </div>
         </div>
-        <div className="bg-gray-100">
+        <hr />
+        <div className="bg-blue-300">
           <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
             <a
               className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
@@ -135,10 +136,10 @@ const Footer = () => {
               >
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
               </svg>
-              <span className="ml-3 text-xl">Tailblocks</span>
+              <span className="ml-3 text-xl">Codext</span>
             </a>
             <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
-              © 2020 Tailblocks —
+              © 2022 Codext —
               <a
                 href="https://twitter.com/knyttneve"
                 rel="noopener noreferrer"
